@@ -1,0 +1,73 @@
+.Stories{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    height:100%;
+    width:100%;
+    gap: -5px;
+    /* align-items: center; */
+    overflow-x: auto; 
+    overflow-y: none;
+    position: relative;
+    
+}
+
+.Stories::-webkit-scrollbar{
+    display: none;
+}
+
+.s_section{
+    display:flex;
+    position: relative;
+    z-index: 0;
+
+}
+
+.Story{
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.Container{
+    height: 70px;
+    width:70px;
+    background-color: white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.Story img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+
+}
+
+.Story p{
+    margin-top: 8px;
+    font-size: small;
+    font-weight:500;
+}
+
+.DisplayStory{
+    position: fixed;
+    height: 800px; 
+    z-index: 1;
+    position: fixed;
+    margin-left: 20%;
+    top: 0;
+    left: 0;
+    width: 60%;
+    justify-content: center;
+    transition: opacity 0.5s ease-out; 
+}
+
+.DisplayStory img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}

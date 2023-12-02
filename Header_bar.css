@@ -1,0 +1,43 @@
+.Header_bar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    height: 70px;
+    background-color: black;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.iconPack{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.avatar img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    object-position:bottom;
+}
+
+.searchbar search{
+    align-items: center;
+}
